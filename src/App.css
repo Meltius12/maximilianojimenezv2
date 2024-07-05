@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.Image{
+  color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-color: #202020;
+    font-family: 'Franklin Gothic Medium';
+    padding: 60px 20px;
+    width: 100%;
+    height: 850px;
+    border-bottom: 10px #282828 solid;
+}
+/* styles.css (o tu archivo de estilos) */
+
+.footer {
+  color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-color: #101010;
+    font-family: 'Franklin Gothic Medium';
+    padding: 30px 20px;
+    width: 100%;
+    height: 60px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-muted {
+  font-size: 14px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
