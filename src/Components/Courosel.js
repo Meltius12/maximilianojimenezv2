@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import FluidExample from './Fondo';
+import Matrix from '../img/Matrix.png';
+import Pancho from '../img/Pancho.png';
+import Perros from '../img/Perros.png';
+import '../App.css';
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
 
@@ -9,23 +12,27 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel 
+      activeIndex={index} 
+      onSelect={handleSelect}
+
+    >
       <Carousel.Item>
-        <FluidExample></FluidExample>
+        <img src={Matrix} alt="" fluid/>
         <Carousel.Caption>
           <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <FluidExample></FluidExample>
+        <img src={Pancho} alt="" fluid />
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <FluidExample></FluidExample>
+        <img src={Perros} alt="" fluid  />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
