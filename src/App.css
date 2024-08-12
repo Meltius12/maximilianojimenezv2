@@ -120,3 +120,22 @@
  button:hover{
 background-color: #101010;
 }
+h1 {
+  border-bottom: 6px #808080 solid;
+}
+section3 h2 {
+ 
+  width: 40%;
+  flex-direction: column;
+  padding-top: 30px;
+  text-align: justify;
+  background-color: #303030;
+  border-radius: 20px;
+  
+  border-left: 40px #303030 solid;
+  border-right: 40px #303030 solid;
+  border-bottom: 30px #303030 solid;
+  
+}
+
+
